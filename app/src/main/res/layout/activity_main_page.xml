@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainPage">
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/bmv"
+    android:background="@color/white"
+    app:menu="@menu/bottom_menu"
+    app:itemTextColor="@color/aa"
+app:itemActiveIndicatorStyle="@color/aa"
+    app:itemIconTint="@color/aa"
+ app:labelVisibilityMode="labeled"
+    android:layout_height="wrap_content">
+
+</com.google.android.material.bottomnavigation.BottomNavigationView>
+<com.google.android.material.appbar.MaterialToolbar
+    android:layout_width="match_parent"
+    android:id="@+id/mt"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/logo"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/logo"
+            android:fontFamily="@font/ubuntum"
+            android:text="Wealth Secret"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toLeftOf="@id/user"
+            android:src="@drawable/search_svgrepo_com" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/user"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+
+            android:src="@drawable/user_circle_svgrepo_com"/>
+
+    </RelativeLayout>
+</com.google.android.material.appbar.MaterialToolbar>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       android:id="@+id/framelayout"
+       android:layout_below="@id/mt"
+       android:layout_above="@id/bmv"/>
+</RelativeLayout>

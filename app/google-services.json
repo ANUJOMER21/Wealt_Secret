@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "714973273804",
+    "project_id": "wealth-secret",
+    "storage_bucket": "wealth-secret.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714973273804:android:6140225b3cd4dfe9f26c69",
+        "android_client_info": {
+          "package_name": "com.example.wealthsecret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714973273804-pk9p8nl08paqhjdggpmhuffi95dg7qie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wealthsecret",
+            "certificate_hash": "edfbfc92fb449c75b5aa967c7df9f6b1bf9a8615"
+          }
+        },
+        {
+          "client_id": "714973273804-nqgg3apm2n8ftfqkvrp6ifhsr0kgs10o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XHD_jW-p8MM3zZtbYZY7Ax9xX-NuiVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714973273804-nqgg3apm2n8ftfqkvrp6ifhsr0kgs10o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

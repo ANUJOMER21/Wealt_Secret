@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.mutualfundfragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:fontFamily="@font/ubuntum"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Mutual Funds"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/red"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Cap Mutual Funds"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntum"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/lrv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mid Cap Mutual Funds"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntum"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/mrv"/>   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Small Cap Mutual Funds"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntum"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/srv"/>
+
+
+
+</LinearLayout>
+</ScrollView>
+</FrameLayout>

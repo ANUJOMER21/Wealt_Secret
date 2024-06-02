@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_stock"
+        android:icon="@drawable/stock_svgrepo_com_2"
+        android:title="Stock" />
+    <item
+        android:id="@+id/menu_mutual_funds"
+        android:icon="@drawable/stock_ticker_svgrepo_com"
+        android:title="Mutual Funds" />
+    <item
+        android:id="@+id/menu_strategy"
+        android:icon="@drawable/square_dollar_chart_svgrepo_com"
+        android:title="Strategy" />
+    <item
+        android:id="@+id/menu_learn"
+        android:icon="@drawable/education_book_learn_school_library_svgrepo_com"
+        android:title="Learn" />
+</menu>
