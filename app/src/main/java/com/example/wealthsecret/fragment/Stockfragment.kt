@@ -65,7 +65,7 @@ class stockfragment : Fragment() {
         })
         apiviewmodel.topstock.observe(requireActivity(), {
              data->
-             val stockAdapter=StockAdapter(data,requireContext())
+             val stockAdapter=StockAdapter(data,requireActivity())
              recyclerView.adapter=stockAdapter
              stockAdapter.notifyDataSetChanged()
          })

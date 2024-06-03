@@ -8,9 +8,11 @@ import com.example.wealthsecret.API.RETROFIT.Apiviewmodel
 import com.example.wealthsecret.R
 import com.example.wealthsecret.Viewmodel.UserViewModel
 import com.example.wealthsecret.databinding.ActivityMainPageBinding
+import com.example.wealthsecret.fragment.LearnFragment
 import com.example.wealthsecret.fragment.mutualfundfragment
 import com.example.wealthsecret.misc.Commonsharedpref
 import com.example.wealthsecret.fragment.stockfragment
+import com.example.wealthsecret.fragment.strategyfragment
 
 class MainPage : AppCompatActivity() {
     private lateinit var binding:ActivityMainPageBinding
@@ -28,6 +30,8 @@ class MainPage : AppCompatActivity() {
              when(menuitem.itemId){
                  R.id.menu_stock-> replacefrag(stockfragment())
                  R.id.menu_mutual_funds->replacefrag(mutualfundfragment())
+                 R.id.menu_learn->replacefrag(LearnFragment())
+                 R.id.menu_strategy->replacefrag(strategyfragment())
 
              }
              true

@@ -21,4 +21,7 @@ interface ApiService {
     ): Response<stockdata>
     @GET("mf")
     suspend fun getmf():Response<mfmodel>
+
+
+
 }
